@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Large files — do not commit videos or models to git
+data/sample_videos/*.mp4
+data/sample_videos/*.avi
+data/sample_videos/*.mov
+models/*.pkl
+models/*.pt
+models/*.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Generated report figures (commit the PDF, not the PNGs)
+report/fig_*.png
